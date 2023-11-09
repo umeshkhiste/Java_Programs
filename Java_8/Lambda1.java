@@ -7,19 +7,20 @@ interface Drawable{
 public class Lambda1 {
     public static void main(String[] args) {
         int width = 10;
-        /*
-    with lambda expression
+        
+    //with lambda expression
         Drawable d2 =()->{
             System.out.println("Drawing: "+width);
         };
-        d2.draw();*/
+        d2.draw();
+        
     //withdout lambda expression
-        Drawable d = new Drawable() {
+       /* Drawable d = new Drawable() {
             public void draw()
             {
                 System.out.println("Drawing "+width);
             }
         };
-        d.draw();
+        d.draw();*/
     }
 }
